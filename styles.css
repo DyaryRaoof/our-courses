@@ -83,37 +83,36 @@ header h1 {
 #main-program ul {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 #main-program ul > li {
   background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
-  justify-content: flex-start;
-  margin: 10px;
+  justify-content: space-between;
+  margin: 10px 20px;
+  height: 100px;
 }
 
 #main-program ul > li > * {
   padding: 10px;
 }
 
+.course-item {
+  align-items: center;
+}
+
+.course-item h3 {
+  padding-left: 30px;
+}
+
 #main-program ul > li > p {
   color: white;
 }
 
-#html {
-  margin-left: 7%;
-}
-
-#css {
-  margin-left: 11%;
-}
-
-#javascript {
-  margin-left: 2.5%;
-}
-
-#back-end {
-  margin-left: 7%;
+.course-item-description {
+  width: 65%;
 }
 
 #hr-wrapper {
@@ -127,7 +126,7 @@ header h1 {
   background-color: #ec5242;
 }
 
-#main-program ul > li > img {
+#main-program img {
   width: 70px;
   height: 70px;
 }
