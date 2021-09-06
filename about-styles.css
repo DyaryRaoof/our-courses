@@ -1,0 +1,180 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+}
+
+#header-content {
+  text-align: center;
+  padding-top: 10%;
+}
+
+header {
+  margin-bottom: 10%;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul > li:last-child > i {
+  font-size: 50px;
+}
+
+#header-nav-plus-content {
+  padding: 0 5%;
+}
+
+#hero-area-bg-img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.2;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.orange-color {
+  color: #ec5242;
+}
+
+.black-color {
+  color: #272a31;
+}
+
+.grey-color {
+  color: #d3d3d3;
+}
+
+header h1 {
+  font-weight: 1000;
+}
+
+#header-upper-paragraph {
+  border: 2px solid lightgrey;
+  padding: 20px;
+  background-color: white;
+}
+
+#header-lower-paragarph {
+  padding: 3% 20%;
+}
+
+#logo-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo-section p {
+  padding: 3% 20%;
+}
+
+.short-orange-hr {
+  color: #ec5242;
+  width: 5%;
+  height: 3px;
+}
+
+#logo-wrapper {
+  border: 2px solid lightgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#logo-wrapper img {
+  width: 200px;
+}
+
+#past-courses {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#past-courses p {
+  padding: 0 30%;
+}
+
+#partners li {
+  padding: 5%;
+}
+
+#past-courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 10%;
+}
+
+#past-courses ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#past-courses img {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  width: 100%;
+}
+
+.past-course-item-wrapper {
+  background-color: rgba(236, 82, 66, 0.5);
+  margin-top: 10%;
+}
+
+.past-course-item {
+  position: absolute;
+  margin-top: 7%;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+#partners {
+  background-color: #414246;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#partners h1 {
+  font-weight: bold;
+}
+
+#partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#partners ul > li {
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+footer h4 {
+  font-weight: bold;
+}
