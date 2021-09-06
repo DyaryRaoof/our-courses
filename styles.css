@@ -10,6 +10,16 @@ header {
   margin-bottom: 10%;
 }
 
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul > li:last-child > i {
+  font-size: 50px;
+}
+
 #header-nav-plus-content {
   padding: 0 5%;
 }
