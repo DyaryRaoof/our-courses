@@ -94,7 +94,7 @@ header h1 {
   align-items: center;
   justify-content: space-between;
   margin: 10px 20px;
-  height: 100px;
+  height: 200px;
 }
 
 #main-program ul > li > * {
@@ -110,7 +110,7 @@ header h1 {
 }
 
 .course-item h3 {
-  padding-left: 30px;
+  padding-left: 2px;
 }
 
 #main-program ul > li > p {
@@ -118,7 +118,7 @@ header h1 {
 }
 
 .course-item-description {
-  width: 65%;
+  width: 50%;
 }
 
 #hr-wrapper {
@@ -229,6 +229,7 @@ footer {
 
   #main-program ul > li {
     flex-direction: column;
+    justify-content: flex-start;
     height: 300px;
     font-size: 10px;
   }
@@ -293,6 +294,7 @@ footer {
   .course-item h3 {
     padding-left: 0;
     margin-top: 5px;
+    font-size: 15px;
   }
 
   #featured-speakers ul {
@@ -338,5 +340,9 @@ footer {
 
   #more-button-wrapper button {
     display: none;
+  }
+
+  .course-item-description {
+    width: 65%;
   }
 }
