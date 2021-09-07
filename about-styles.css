@@ -6,6 +6,8 @@ body {
 #header-content {
   text-align: center;
   padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 header {
@@ -20,10 +22,6 @@ header ul {
 
 header ul > li:last-child > i {
   font-size: 50px;
-}
-
-#header-nav-plus-content {
-  padding: 0 5%;
 }
 
 #hero-area-bg-img {
@@ -94,6 +92,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 #past-courses p {
@@ -117,22 +116,41 @@ header h1 {
   color: white;
 }
 
-#past-courses img {
+.past-course-item-wrapper1 {
+  background-image: url("images/coding-1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  z-index: -99;
-  width: 100%;
+  height: 70vh;
+  width: 70vw;
+  margin-top: 10%;
+  z-index: 1;
 }
 
-.past-course-item-wrapper {
-  background-color: rgba(236, 82, 66, 0.5);
+.past-course-item-wrapper2 {
+  background-image: url("images/coding-2.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70vh;
+  width: 70vw;
   margin-top: 10%;
+  z-index: 1;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 82, 66, 0.5);
+  z-index: -1;
 }
 
 .past-course-item {
   position: absolute;
+  z-index: 2;
   margin-top: 7%;
 }
 
@@ -177,4 +195,119 @@ footer {
 
 footer h4 {
   font-weight: bold;
+}
+
+.nav {
+  display: none;
+}
+
+#hamburger i {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  #upper-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  #upper-nav li {
+    color: white;
+  }
+
+  #lower-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+  }
+
+  #lower-nav li,
+  #upper-nav li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #past-courses li {
+    margin: 10px;
+  }
+
+  #partners ul > li {
+    font-size: 30px;
+    padding: 5%;
+  }
+
+  #lower-nav li:first-child {
+    padding: 0 10px;
+    margin-right: auto;
+  }
+
+  #partners {
+    background-color: #414246;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  #partners h1 {
+    font-weight: bold;
+  }
+
+  #partners ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+  }
+
+  footer h4 {
+    font-weight: bold;
+  }
+
+  nav a {
+    color: black;
+  }
+
+  #past-courses ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .past-course-item-wrapper1 {
+    width: 40vw;
+    height: 50vh;
+  }
+
+  .past-course-item-wrapper2 {
+    width: 40vw;
+    height: 50vh;
+  }
 }

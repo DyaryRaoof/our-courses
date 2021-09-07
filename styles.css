@@ -16,16 +16,18 @@ header ul {
   padding: 0;
 }
 
-header ul > li:last-child > i {
-  font-size: 50px;
+#hamburger {
+  padding: 0 5%;
 }
 
-#header-nav-plus-content {
-  padding: 0 5%;
+#hamburger i {
+  font-size: 50px;
 }
 
 #header-content {
   padding-top: 10%;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 
 #hero-area-bg-img {
@@ -97,6 +99,10 @@ header h1 {
 
 #main-program ul > li > * {
   padding: 10px;
+}
+
+#main-program a {
+  display: none;
 }
 
 .course-item {
@@ -177,4 +183,147 @@ header h1 {
   font-weight: bold;
   margin-bottom: 40px;
   background-color: white;
+}
+
+.nav {
+  display: none;
+}
+
+#partners {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  #upper-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  #upper-nav li {
+    color: white;
+  }
+
+  #lower-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+  }
+
+  #lower-nav li,
+  #upper-nav li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #main-program a {
+    display: block;
+    text-decoration: underline;
+    color: white;
+    padding: 40px 0;
+  }
+
+  #lower-nav li > a,
+  #upper-nav li > a {
+    color: black;
+  }
+
+  #main-program ul > li {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 10px;
+    height: 300px;
+    font-size: 10px;
+  }
+
+  #partners ul > li {
+    font-size: 30px;
+    padding: 5%;
+  }
+
+  #lower-nav li:first-child {
+    padding: 0 10px;
+    margin-right: auto;
+  }
+
+  #main-program ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #main-program button {
+    display: none;
+  }
+
+  .course-item {
+    flex-direction: column;
+  }
+
+  .course-item h3 {
+    padding-left: 0;
+    margin-top: 5px;
+  }
+
+  #featured-speakers ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #partners {
+    background-color: #414246;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  #partners h1 {
+    font-weight: bold;
+  }
+
+  #partners ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+  }
+
+  footer h4 {
+    font-weight: bold;
+  }
+
+  #more-button-wrapper button {
+    display: none;
+  }
 }
