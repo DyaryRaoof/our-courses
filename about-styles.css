@@ -109,6 +109,10 @@ header h1 {
   margin: 0 10%;
 }
 
+#mobile-open-nav li {
+  padding: 1% 0;
+}
+
 #past-courses ul > li {
   display: flex;
   align-items: center;
@@ -203,6 +207,20 @@ footer h4 {
 
 #hamburger i {
   font-size: 50px;
+}
+
+.display-none {
+  display: none;
+}
+
+#mobile-open-nav ul {
+  padding: 1% 7%;
+  background-color: #272a31;
+}
+
+#mobile-open-nav a {
+  text-decoration: none;
+  color: #ec5242;
 }
 
 @media screen and (min-width: 768px) {
