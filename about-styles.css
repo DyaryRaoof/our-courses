@@ -74,7 +74,8 @@ header h1 {
 .short-orange-hr {
   color: #ec5242;
   width: 5%;
-  height: 3px;
+  opacity: 1;
+  height: 2px;
 }
 
 #logo-wrapper {

@@ -5,11 +5,11 @@ const speakerJobsArray = document.querySelectorAll('.speaker-job');
 const speakerGraduatedArray = document.querySelectorAll('.speaker-graduated');
 const closeButton = document.querySelector('#close-button');
 
-hamburger.addEventListener('click', toggleMenu);
-
 function toggleMenu() {
   mobileOpenNav.classList.toggle('display-none');
 }
+
+hamburger.addEventListener('click', toggleMenu);
 
 const speakersArray = [
   {
