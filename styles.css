@@ -227,6 +227,12 @@ footer {
     font-size: 10px;
   }
 
+  #main-program ul > li {
+    flex-direction: column;
+    height: 300px;
+    font-size: 10px;
+  }
+
   #upper-nav li:last-child,
   #lower-nav li:last-child {
     color: white;
@@ -302,6 +308,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 10%;
+    padding-bottom: 7%;
   }
 
   #partners h1 {
