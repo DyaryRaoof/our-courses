@@ -3,10 +3,13 @@ const hamburger = document.querySelector('#hamburger');
 const speakerNamesArray = document.querySelectorAll('.speaker-name');
 const speakerJobsArray = document.querySelectorAll('.speaker-job');
 const speakerGraduatedArray = document.querySelectorAll('.speaker-graduated');
+const closeButton = document.querySelector('#close-button');
 
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
   mobileOpenNav.classList.toggle('display-none');
-});
+}
 
 const speakersArray = [
   {
@@ -38,3 +41,5 @@ window.addEventListener('load', () => {
     speakerGraduatedArray[i].textContent = speakersArray[i].graduated;
   }
 });
+
+closeButton.addEventListener('click', toggleMenu);

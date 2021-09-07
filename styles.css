@@ -215,6 +215,14 @@ footer {
   color: #ec5242;
 }
 
+.hide-on-mobile {
+  display: none !important;
+}
+
+#close-button {
+  margin-left: 100%;
+}
+
 @media screen and (min-width: 768px) {
   #hamburger {
     display: none;
@@ -362,5 +370,9 @@ footer {
 
   .course-item-description {
     width: 65%;
+  }
+
+  .hide-on-mobile {
+    display: flex !important;
   }
 }
