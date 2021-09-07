@@ -1,7 +1,40 @@
-const mobileOpenNav = document.querySelector("#mobile-open-nav");
-const hamburger = document.querySelector("#hamburger");
+const mobileOpenNav = document.querySelector('#mobile-open-nav');
+const hamburger = document.querySelector('#hamburger');
+const speakerNamesArray = document.querySelectorAll('.speaker-name');
+const speakerJobsArray = document.querySelectorAll('.speaker-job');
+const speakerGraduatedArray = document.querySelectorAll('.speaker-graduated');
 
-hamburger.addEventListener("click", () => {
-  mobileOpenNav.classList.toggle("display-none");
-  console.log("hello world");
+hamburger.addEventListener('click', () => {
+  mobileOpenNav.classList.toggle('display-none');
+});
+
+const speakersArray = [
+  {
+    name: 'Adam Abraham',
+    job: 'Senior Back End Dev at Facebook',
+    graduated: 'Studied IT at the University of California',
+  },
+  {
+    name: 'Megan Alsop',
+    job: 'Senior Full Stack Dev at Google',
+    graduated: 'Studied IT at the University of Korea.',
+  },
+  {
+    name: 'Bruce B. Austin',
+    job: 'Full Stack Dev at Google',
+    graduated: 'Studied IT at the University of California',
+  },
+  {
+    name: 'James R. King',
+    job: 'Senior Full Stack Dev at Uber',
+    graduated: 'Studied IT at the University of California',
+  },
+];
+
+window.addEventListener('load', () => {
+  for (let i = 0; i < speakersArray.length; i += 1) {
+    speakerNamesArray[i].textContent = speakersArray[i].name;
+    speakerJobsArray[i].textContent = speakersArray[i].job;
+    speakerGraduatedArray[i].textContent = speakersArray[i].graduated;
+  }
 });
