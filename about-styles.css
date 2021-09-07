@@ -257,6 +257,23 @@ footer h4 {
     margin-right: auto;
   }
 
+  #lower-nav li:last-child {
+    border: 2px solid #ec5242;
+    padding: 3px;
+  }
+
+  nav a {
+    color: black;
+  }
+
+  #header-nav-plus-content a {
+    text-decoration: none;
+  }
+
+  #lower-nav li:last-child > a {
+    color: #ec5242;
+  }
+
   #partners {
     background-color: #414246;
     color: white;
@@ -292,10 +309,6 @@ footer h4 {
     font-weight: bold;
   }
 
-  nav a {
-    color: black;
-  }
-
   #past-courses ul {
     display: flex;
     flex-direction: row;
@@ -309,5 +322,11 @@ footer h4 {
   .past-course-item-wrapper2 {
     width: 40vw;
     height: 50vh;
+  }
+
+  #upper-nav li:last-child,
+  #lower-nav li:last-child {
+    color: white;
+    margin-right: 10%;
   }
 }

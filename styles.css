@@ -221,6 +221,18 @@ footer {
     color: white;
   }
 
+  #lower-nav li,
+  #upper-nav li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #upper-nav li:last-child,
+  #lower-nav li:last-child {
+    color: white;
+    margin-right: 10%;
+  }
+
   #lower-nav {
     display: flex;
     justify-content: center;
@@ -229,10 +241,8 @@ footer {
     box-shadow: 1px 1px 3px grey;
   }
 
-  #lower-nav li,
-  #upper-nav li {
-    padding: 5px;
-    font-size: 10px;
+  #header-nav-plus-content a {
+    text-decoration: none;
   }
 
   #main-program a {
@@ -247,22 +257,18 @@ footer {
     color: black;
   }
 
-  #main-program ul > li {
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0 10px;
-    height: 300px;
-    font-size: 10px;
-  }
-
-  #partners ul > li {
-    font-size: 30px;
-    padding: 5%;
-  }
-
   #lower-nav li:first-child {
     padding: 0 10px;
     margin-right: auto;
+  }
+
+  #lower-nav li:last-child {
+    border: 2px solid #ec5242;
+    padding: 3px;
+  }
+
+  #lower-nav li:last-child > a {
+    color: #ec5242;
   }
 
   #main-program ul {
