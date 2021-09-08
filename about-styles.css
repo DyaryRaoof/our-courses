@@ -289,7 +289,7 @@ footer h4 {
     margin-right: auto;
   }
 
-  #lower-nav li:first-child > img {
+  #lower-nav li:first-child > a > img {
     width: 130px;
   }
 
