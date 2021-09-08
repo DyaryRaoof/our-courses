@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #f7f7f7;
+  overflow-x: hidden;
 }
 
 #header-content {
@@ -232,6 +233,10 @@ footer h4 {
   font-size: 35px;
 }
 
+#close-button {
+  margin-left: 100%;
+}
+
 @media screen and (min-width: 768px) {
   #hamburger {
     display: none;
@@ -290,7 +295,7 @@ footer h4 {
   }
 
   #lower-nav li:first-child > a > img {
-    width: 130px;
+    width: 100px;
   }
 
   #lower-nav li:last-child {
