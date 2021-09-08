@@ -280,12 +280,16 @@ footer {
   #main-program ul > li {
     flex-direction: column;
     justify-content: flex-start;
-    height: 230px;
+    height: auto;
     font-size: 10px;
   }
 
   #partners ul > li {
     padding: 0 20px;
+  }
+
+  #lower-nav li:first-child > img {
+    width: 130px;
   }
 
   #upper-nav li:last-child,

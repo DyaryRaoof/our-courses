@@ -289,6 +289,10 @@ footer h4 {
     margin-right: auto;
   }
 
+  #lower-nav li:first-child > img {
+    width: 130px;
+  }
+
   #lower-nav li:last-child {
     border: 2px solid #ec5242;
     padding: 3px;
