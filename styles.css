@@ -248,12 +248,17 @@ footer {
   }
 
   #upper-nav li {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  #upper-nav i,
+  #upper-nav span {
     color: white;
   }
 
-  #lower-nav li,
-  #upper-nav li {
-    padding: 5px;
+  #lower-nav li {
+    padding: 20px 7%;
     font-size: 15px;
   }
 
@@ -297,6 +302,10 @@ footer {
   #lower-nav li:first-child {
     padding: 0 10px;
     margin-right: auto;
+  }
+
+  #lower-nav a:focus {
+    color: #ec5242;
   }
 
   #lower-nav li:last-child {

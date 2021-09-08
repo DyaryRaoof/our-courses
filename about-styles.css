@@ -250,6 +250,13 @@ footer h4 {
 
   #upper-nav li {
     color: white;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  #upper-nav i,
+  #upper-nav span {
+    color: white;
   }
 
   #lower-nav {
@@ -260,9 +267,8 @@ footer h4 {
     box-shadow: 1px 1px 3px grey;
   }
 
-  #lower-nav li,
-  #upper-nav li {
-    padding: 5px;
+  #lower-nav li {
+    padding: 20px 7%;
     font-size: 15px;
   }
 
@@ -291,6 +297,10 @@ footer h4 {
 
   #header-nav-plus-content a {
     text-decoration: none;
+  }
+
+  #lower-nav a:focus {
+    color: #ec5242;
   }
 
   #lower-nav li:last-child > a {
