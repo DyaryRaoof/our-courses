@@ -5,9 +5,9 @@ const speakerJobsArray = document.querySelectorAll('.speaker-job');
 const speakerGraduatedArray = document.querySelectorAll('.speaker-graduated');
 const closeButton = document.querySelector('#close-button');
 
-function toggleMenu() {
+const toggleMenu = () => {
   mobileOpenNav.classList.toggle('display-none');
-}
+};
 
 hamburger.addEventListener('click', toggleMenu);
 
