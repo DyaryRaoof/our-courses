@@ -37,6 +37,8 @@ run live-server.
 ### Live Demo
 [Live Demo Link](https://dyaryraoof.github.io/our-courses/)
 
+### Demo Video 
+[Demo Video](https://www.loom.com/share/c60aa5aea28648d69c6bd1b961b83149)
 
 ## Authors
 
@@ -59,7 +61,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Original design idea by Cindy Shin in Behance.
+- Original design idea by [ Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 
