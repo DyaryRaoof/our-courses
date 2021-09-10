@@ -1,0 +1,394 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+#header-content {
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+header {
+  margin-bottom: 10%;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul > li:last-child > i {
+  font-size: 50px;
+}
+
+#hero-area-bg-img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.2;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.orange-color {
+  color: #ec5242;
+}
+
+.black-color {
+  color: #272a31;
+}
+
+.grey-color {
+  color: #d3d3d3;
+}
+
+header h1 {
+  font-weight: 1000;
+}
+
+#header-upper-paragraph {
+  border: 2px solid lightgrey;
+  padding: 20px;
+  background-color: white;
+}
+
+#header-lower-paragarph {
+  padding: 3% 20%;
+}
+
+#logo-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo-section p {
+  padding: 3% 20%;
+}
+
+.short-orange-hr {
+  color: #ec5242;
+  width: 5%;
+  opacity: 1;
+  height: 2px;
+}
+
+#logo-wrapper {
+  border: 2px solid lightgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#logo-wrapper img {
+  width: 200px;
+}
+
+#past-courses {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#past-courses p {
+  padding: 0 30%;
+}
+
+#partners li {
+  padding: 5%;
+}
+
+#past-courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 10%;
+}
+
+#mobile-open-nav li {
+  padding: 1% 0;
+}
+
+#past-courses ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.past-course-item-wrapper1 {
+  background-image: url("images/coding-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+  margin-top: 10%;
+  z-index: 1;
+}
+
+.past-course-item-wrapper2 {
+  background-image: url("images/coding-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+  margin-top: 10%;
+  z-index: 1;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 82, 66, 0.5);
+  z-index: -1;
+}
+
+.past-course-item {
+  position: absolute;
+  z-index: 2;
+  margin-top: 7%;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+#partners {
+  background-color: #414246;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#partners h1 {
+  font-weight: bold;
+}
+
+#partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#partners ul > li {
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+.nav {
+  display: none;
+}
+
+#hamburger i {
+  font-size: 50px;
+}
+
+.display-none {
+  display: none;
+}
+
+#mobile-open-nav ul {
+  padding: 1% 7%;
+  background-color: #272a31;
+}
+
+#mobile-open-nav a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.large-font {
+  font-size: 35px;
+}
+
+#close-button {
+  margin-left: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  #upper-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  #upper-nav li {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  #upper-nav i,
+  #upper-nav span {
+    color: white;
+  }
+
+  #lower-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+  }
+
+  #lower-nav li {
+    padding: 20px 7%;
+    font-size: 15px;
+  }
+
+  #past-courses li {
+    margin: 10px;
+  }
+
+  #partners ul > li {
+    padding: 0;
+  }
+
+  #lower-nav li:first-child {
+    padding: 0 10px;
+    margin-right: auto;
+  }
+
+  #lower-nav li:first-child > a > img {
+    width: 100px;
+  }
+
+  #lower-nav li:last-child {
+    border: 2px solid #ec5242;
+    padding: 3px;
+  }
+
+  nav a {
+    color: black;
+  }
+
+  #header-nav-plus-content a {
+    text-decoration: none;
+  }
+
+  #lower-nav a:focus {
+    color: #ec5242;
+  }
+
+  #lower-nav li:last-child > a {
+    color: #ec5242;
+  }
+
+  #partners {
+    background-color: #414246;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #partners h1 {
+    font-weight: bold;
+  }
+
+  #partners ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80vw;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+  }
+
+  footer h4 {
+    font-weight: bold;
+  }
+
+  #past-courses ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .past-course-item-wrapper1 {
+    width: 40vw;
+    height: 50vh;
+  }
+
+  .past-course-item-wrapper2 {
+    width: 40vw;
+    height: 50vh;
+  }
+
+  #upper-nav li:last-child,
+  #lower-nav li:last-child {
+    color: white;
+    margin-right: 10%;
+  }
+
+  #header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header-upper-paragraph {
+    width: 70%;
+  }
+
+  #logo-section {
+    background-color: white;
+  }
+}
