@@ -4,7 +4,7 @@
 
 > this is Dev Courses website. It includes multiple courses for programmers in all fields, it also includes courses that are older than 2021. It's created with CSS and HTML and Javascript and I used VS Code as my code editor. the fonts I used for this website is Lato and this is for the whole website. I used Flexbox to style my nav items and grid to style speaker and main program sections. The data for the speakers (like name, job and certificate) loads dynamically using Javascipt when the page refreshes. I used media queries to make it responsive. so i works well on mobile devices.
 
-![screenshot](https://i.imgur.com/C8FcbjY.png)
+![screenshot](https://i.imgur.com/YDVcHHp.png)
 
 look thorugh the website to see my work and contact me if needed.
 
