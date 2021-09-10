@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
+  background-color: #d7d7d7;
 }
 
 header {
@@ -398,7 +399,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 10%;
-    background-color: #f2f2f2;
+    background-color: #d7d7d7;
   }
 
   footer h4 {
