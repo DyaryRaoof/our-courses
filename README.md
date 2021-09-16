@@ -46,7 +46,7 @@ run live-server.
 
 - GitHub: [@DyaryRaoof](https://github.com/DyaryRaoof)
 - Twitter: [@DyaryRaoof](https://twitter.com/DyaryRaoof)
-- LinkedIn: [dyary-raoof-baiz-agha-b79444155](https://www.linkedin.com/in/dyary-raoof-baiz-agha-b79444155)
+- LinkedIn: [@DyaryRaoof](https://linkedin.com/in/DyaryRaoof)
 
 ## 🤝 Contributing
 
